@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Philip Laureano</authors>
+    <owners>Philip Laureano</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/philiplaureano/akka.configuration.builders</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2015 - Philip Laureano</copyright>
+    <tags>akka configuration</tags>
+    <dependencies>
+      <dependency id="Akka" version="1.0.5"/>
+      <dependency id="Newtonsoft.Json" version="7.0.1"/>
+      <dependency id="Akka.Configuration" version="1.0.5835.17171"/>
+    </dependencies>
+  </metadata>
+</package>
