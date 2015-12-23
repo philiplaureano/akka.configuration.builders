@@ -43,5 +43,18 @@ namespace Akka.Configuration.Builders.Tests
 
             Assert.AreEqual(expectedOutput, hocon);
         }
+
+        [Test]
+        public void Should_be_able_to_convert_dictionary_into_actorsystem_builder()
+        {
+            IEnumerable<KeyValuePair<string, string>> dictionary = new Dictionary<string, string>()
+            {
+                {"key1", "value1"},
+                {"key2", "value2"}
+            };
+
+            IActorSystemBuilder builder = dictionary.CreateActorSystemBuilder();
+            Assert.IsNotNull(builder.Create("FakeSystem"));
+        }
     }
 }
