@@ -52,7 +52,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ActorSystemBuilder.cs" />
+    <Compile Include="DefaultConfigurationFactory.cs" />
+    <Compile Include="IConfigurationFactory.cs" />
+    <Compile Include="IHoconBuilder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
