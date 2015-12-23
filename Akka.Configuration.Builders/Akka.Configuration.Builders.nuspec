@@ -9,6 +9,7 @@
     <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
     <projectUrl>https://github.com/philiplaureano/akka.configuration.builders</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A .NET extension library for akka.configuration that provides the boilerplate code for creating actor systems.</description>
     <releaseNotes></releaseNotes>
     <copyright>Copyright 2015 - Philip Laureano</copyright>
     <tags>akka configuration</tags>
