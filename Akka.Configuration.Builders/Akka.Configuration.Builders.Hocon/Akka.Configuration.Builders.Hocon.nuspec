@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/philiplaureano/akka.configuration.builders</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A .NET extension library for akka.configuration.builders that provides the boilerplate code for generating HOCON config files.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2015 - Philip Laureano</copyright>
+    <tags>akka configuration hocon</tags>
+  </metadata>
+</package>

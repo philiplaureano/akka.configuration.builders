@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0D28AB9B-9C31-445D-9A4C-38D76351EF75}</ProjectGuid>
+    <ProjectGuid>{5F854171-A036-4B28-8FB0-0A052AD27CDF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Akka.Configuration.Builders.Tests</RootNamespace>
-    <AssemblyName>Akka.Configuration.Builders.Tests</AssemblyName>
+    <RootNamespace>Akka.Configuration.Builders.Hocon</RootNamespace>
+    <AssemblyName>Akka.Configuration.Builders.Hocon</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,23 +31,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Akka, Version=1.0.5.14, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Akka.Configuration.Builders\packages\Akka.1.0.5\lib\net45\Akka.dll</HintPath>
+      <HintPath>..\packages\Akka.1.0.5\lib\net45\Akka.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Akka.Configuration, Version=1.0.5835.17171, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Akka.Configuration.Builders\packages\Akka.Configuration.1.0.5835.17171\lib\net452\Akka.Configuration.dll</HintPath>
+      <HintPath>..\packages\Akka.Configuration.1.0.5835.17171\lib\net452\Akka.Configuration.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="FakeItEasy, Version=1.25.3.0, Culture=neutral, PublicKeyToken=eff28e2146d5fd2c, processorArchitecture=MSIL">
-      <HintPath>..\Akka.Configuration.Builders\packages\FakeItEasy.1.25.3\lib\net40\FakeItEasy.dll</HintPath>
+    <Reference Include="Akka.Configuration.Builders, Version=1.0.5835.24234, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Akka.Configuration.Builders.1.0.5835.24234\lib\net452\Akka.Configuration.Builders.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\Akka.Configuration.Builders\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
-      <HintPath>..\Akka.Configuration.Builders\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -60,20 +56,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActorSystemBuilderTests.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Akka.Configuration.Builders\Akka.Configuration.Builders.csproj">
-      <Project>{51abbacd-822e-46ec-9559-807c01aeba0e}</Project>
-      <Name>Akka.Configuration.Builders</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Akka.Configuration.Builders\Akka.Configuration.Builders.Hocon\Akka.Configuration.Builders.Hocon.csproj">
-      <Project>{5f854171-a036-4b28-8fb0-0a052ad27cdf}</Project>
-      <Name>Akka.Configuration.Builders.Hocon</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
+    <None Include="Akka.Configuration.Builders.Hocon.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
