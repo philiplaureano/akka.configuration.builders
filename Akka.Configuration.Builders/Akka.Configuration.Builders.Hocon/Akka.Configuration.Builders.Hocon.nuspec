@@ -16,8 +16,8 @@
     <dependencies>
       <dependency id="Akka" version="1.0.5"/>
       <dependency id="Newtonsoft.Json" version="7.0.1"/>
-      <dependency id="Akka.Configuration" version="1.0.5835.17171"/>
-      <dependency id="Akka.Configuration.Builders" version="1.0.5835.24234"/>
+      <dependency id="Akka.Configuration" version="1.0.5835.36887"/>
+      <dependency id="Akka.Configuration.Builders" version="1.0.5837.18449"/>
     </dependencies>
   </metadata>
 </package>

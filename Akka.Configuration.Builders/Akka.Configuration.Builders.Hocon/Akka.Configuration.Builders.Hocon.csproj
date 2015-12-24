@@ -34,12 +34,12 @@
       <HintPath>..\packages\Akka.1.0.5\lib\net45\Akka.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Akka.Configuration, Version=1.0.5835.17171, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Akka.Configuration.1.0.5835.17171\lib\net452\Akka.Configuration.dll</HintPath>
+    <Reference Include="Akka.Configuration, Version=1.0.5835.36887, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Akka.Configuration.1.0.5835.36887\lib\net452\Akka.Configuration.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Akka.Configuration.Builders, Version=1.0.5835.24234, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Akka.Configuration.Builders.1.0.5835.24234\lib\net452\Akka.Configuration.Builders.dll</HintPath>
+    <Reference Include="Akka.Configuration.Builders, Version=1.0.5837.18449, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Akka.Configuration.Builders.1.0.5837.18449\lib\net452\Akka.Configuration.Builders.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">

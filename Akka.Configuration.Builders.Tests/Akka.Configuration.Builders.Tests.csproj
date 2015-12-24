@@ -34,8 +34,8 @@
       <HintPath>..\Akka.Configuration.Builders\packages\Akka.1.0.5\lib\net45\Akka.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Akka.Configuration, Version=1.0.5835.17171, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\Akka.Configuration.Builders\packages\Akka.Configuration.1.0.5835.17171\lib\net452\Akka.Configuration.dll</HintPath>
+    <Reference Include="Akka.Configuration, Version=1.0.5835.36887, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\Akka.Configuration.Builders\packages\Akka.Configuration.1.0.5835.36887\lib\net452\Akka.Configuration.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="FakeItEasy, Version=1.25.3.0, Culture=neutral, PublicKeyToken=eff28e2146d5fd2c, processorArchitecture=MSIL">
@@ -46,8 +46,8 @@
       <HintPath>..\Akka.Configuration.Builders\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
-      <HintPath>..\Akka.Configuration.Builders\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    <Reference Include="nunit.framework, Version=3.0.5813.39031, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\Akka.Configuration.Builders\packages\NUnit.3.0.1\lib\net45\nunit.framework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
