@@ -30,6 +30,7 @@ namespace Akka.Configuration.Builders
             var config = _configFactory.ParseString(hocon);
 
             var actorSystem = ActorSystem.Create(systemName, config);
+
             return actorSystem;
         }
     }
